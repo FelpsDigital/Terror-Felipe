@@ -8,9 +8,10 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] string cena;
     public Animator transition;
+    
     public void Colisao(GameObject objeto)
     {
-        if (objeto == player && cena == "IgrejaExterna")
+        if (objeto == player && cena == "IgrejaExterna 2")
         {
             LoadNextLevel();
         }
